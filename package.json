@@ -1,19 +1,21 @@
 {
   "name": "ctci",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "ctci is repository where I save my solutions for CTCI book",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ctci", "algorithms", "testing", "data structures"],
+  "author": "Gustavo Castillo <gcdcoder@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.20",
     "@types/node": "^12.11.7",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.2"
   }
 }
