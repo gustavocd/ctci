@@ -1,6 +1,6 @@
-# Exercises from Craking the coding interview book ![](https://github.com/gustavocd/ctci/workflows/Cracking%20the%20coding%20interview%20CI/badge.svg)
+# Exercises from CTCI book ![](https://github.com/gustavocd/ctci/workflows/Cracking%20the%20coding%20interview%20CI/badge.svg)
 
-Exercises from CTCI book, these aren't the best possible solutions.
+Exercises from CTCI book, these are my solutions (it doesn't mean that are the best possible solutions).
 
 ## Setup project
 
@@ -13,4 +13,10 @@ npm install
 
 # Run tests
 npm run test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Gegerate js files
+npm run build
 ```
