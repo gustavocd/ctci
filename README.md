@@ -17,6 +17,6 @@ npm run test
 # Run tests with coverage
 npm run test:coverage
 
-# Gegerate js files
+# Generate js files
 npm run build
 ```
