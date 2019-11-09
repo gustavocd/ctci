@@ -1,10 +1,22 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "baseUrl": "src",
+    "outDir": "./dist",
+    "target": "es6",
     "module": "es6",
-    "esModuleInterop": true
+    "skipLibCheck": false,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["*"]
+    },
+    "types" : ["jest"]
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ],
+  "include": [
+    "./src/**/*"
   ]
 }
