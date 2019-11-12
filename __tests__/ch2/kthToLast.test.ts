@@ -34,7 +34,7 @@ test('should return null if list is shorter than n', () => {
   }
 ].forEach(context => {
   let expected = context.list[context.list.length - 1 - context.n]
-  it(`should return ${expected} in ${context.n}th to last element in ${context.list}`, function() {
+  test(`should return ${expected} in ${context.n}th to last element in ${context.list}`, () => {
     let list = arrayToLinkedList(context.list);
     expect(kthToLast(list, context.n)).toEqual(expected);
   });
