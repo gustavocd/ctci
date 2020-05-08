@@ -1,4 +1,4 @@
-import Stack from "@/dataStructures/Stack";
+import Stack from '@/dataStructures/Stack';
 
 type MinStacks<T> = {
   current: T;
