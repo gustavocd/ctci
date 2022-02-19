@@ -4,18 +4,14 @@
     "outDir": "./dist",
     "target": "es6",
     "module": "es6",
+    "moduleResolution": "Node",
     "skipLibCheck": false,
     "esModuleInterop": true,
+    "allowJs": true,
     "paths": {
       "@/*": ["*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts",
-    "**/*.test.ts"
-  ],
-  "include": [
-    "./src/**/*"
-  ]
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+  "include": ["./src/**/*"]
 }
