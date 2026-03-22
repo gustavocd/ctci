@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "clean": "rm -rf node_modules dist && npm install",
+    "clean": "rm -rf node_modules dist && bun install",
     "build": "tsc && tsc-alias"
   },
   "keywords": [
