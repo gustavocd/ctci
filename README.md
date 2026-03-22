@@ -1,4 +1,4 @@
-# Exercises from CTCI book ![](https://github.com/gustavocd/ctci/workflows/Cracking%20the%20coding%20interview%20CI/badge.svg)
+# Exercises from CTCI book ![Status of the project](https://github.com/gustavocd/ctci/workflows/Cracking%20the%20coding%20interview%20CI/badge.svg)
 
 Exercises from CTCI book, these are my solutions (it doesn't mean that are the best possible solutions).
 
@@ -9,14 +9,15 @@ Exercises from CTCI book, these are my solutions (it doesn't mean that are the b
 git clone https://github.com/gustavocd/ctci.git
 
 # Install dependencies
-npm install
+bun install
 
 # Run tests
-npm run test
+bun run test
+
 
 # Run tests with coverage
-npm run test:coverage
+bun run test:coverage
 
 # Generate js files
-npm run build
+bun run build
 ```
